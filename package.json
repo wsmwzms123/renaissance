@@ -1,0 +1,24 @@
+{
+  "name": "renaissance",
+  "version": "1.0.0",
+  "description": "文艺复兴",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsmwzms123/renaissance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsmwzms123/renaissance/issues"
+  },
+  "homepage": "https://github.com/wsmwzms123/renaissance#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
