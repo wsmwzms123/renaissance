@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <span class="sib"></span>
+  </div>
+  <script src="./index.js"></script>
+  <script>
+    const oldVnode = new Vnode(
+      'span',
+      [],
+      null,
+      document.querySelector('.sib')
+    )
+    const vnode = new Vnode(
+      'div',
+      [
+        new Vnode(null, null, 'abdc'),
+        new Vnode('span', [
+          new Vnode(null, null, 'def')
+        ], null, 'asdasd'),
+      ],
+      'null'
+    )
+    patch(oldVnode, vnode)
+  </script>
+</body>
+
+</html>
